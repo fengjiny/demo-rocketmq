@@ -1,0 +1,8 @@
+server:
+  port: 8083
+  context-path: /mq
+
+spring:
+  rocketmq:
+      name-server: localhost:9876
+      producer-group-name: spring-boot-test-producer-group
